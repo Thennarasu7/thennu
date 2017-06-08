@@ -1,5 +1,4 @@
-package ttt;
-import java.util.Scanner;
+package tyyt;
 public class reverse {
 	
 	public static void main(String[] args) {
@@ -13,3 +12,4 @@ public class reverse {
 	}
 
 }
+
