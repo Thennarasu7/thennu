@@ -1,30 +1,15 @@
 package ttt;
 
+import java.util.Scanner;
+
 public class revstring
 {
-
 	public static void main(String[] args)
 	{
-			        String input = new String("abbc");
-		        String output = new String();
+	Scanner sc=new Scanner(System.in);
+	String str=sc.nextLine();
+	String str1=new StringBuffer(str).reverse().toString();
+    System.out.println(str1);
+	}
 
-		        for (int i = 0; i < input.length(); i++)
-		        {
-		            for (int j = 0; j < output.length(); j++)
-		            {
-		                if (input.charAt(i) != output.charAt(j)) 
-		                {
-		                    output = output + input.charAt(i);
-		                }
-		            }
-		        }
-
-		        System.out.println(output);
-
-		    }
-
-		}
-
-
-
-
+}
